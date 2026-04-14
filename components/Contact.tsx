@@ -80,7 +80,7 @@ export default function Contact() {
         <FadeIn delay={0.3}>
           <div className="mt-20 pt-8 border-t border-line flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
             <span className="font-mono text-xs text-slate-700">
-              ace@portfolio:~$ exit
+              archana@portfolio:~$ exit
             </span>
             <span className="font-mono text-xs text-slate-700">
               © 2026 Archana Sondur
