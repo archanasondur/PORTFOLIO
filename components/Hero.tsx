@@ -11,7 +11,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex items-center bg-canvas overflow-hidden"
+      className="relative min-h-screen flex items-center bg-canvas"
     >
       {/* Subtle dot-grid background */}
       <div
@@ -33,12 +33,7 @@ export default function Hero() {
         }}
       />
 
-      <div className="relative max-w-5xl mx-auto px-6 py-32">
-        {/* Pre-label */}
-        <p className="font-mono text-accent text-xs tracking-[0.2em] uppercase mb-6 opacity-60">
-          {"// hello, world"}
-        </p>
-
+      <div className="relative w-full max-w-5xl mx-auto px-6 py-32">
         {/* Name */}
         <h1 className="text-5xl sm:text-6xl lg:text-7xl font-semibold text-slate-50 tracking-tight leading-[1.05]">
           Archana
@@ -46,13 +41,8 @@ export default function Hero() {
           Sondur
         </h1>
 
-        {/* Nickname */}
-        <p className="font-mono text-slate-600 text-sm mt-3 tracking-wider">
-          &lt;ace /&gt;
-        </p>
-
         {/* Typewriter role line */}
-        <div className="mt-10 flex items-center gap-2.5 font-mono text-xl sm:text-2xl text-slate-300">
+        <div className="mt-10 flex items-center gap-2.5 font-mono text-xl sm:text-2xl text-slate-300 whitespace-nowrap">
           <span className="text-accent select-none">$</span>
           <span>{displayText}</span>
           <span className="text-accent animate-blink select-none">█</span>

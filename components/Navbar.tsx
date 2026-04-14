@@ -43,9 +43,9 @@ export default function Navbar() {
         {/* Logo / identity */}
         <a
           href="#hero"
-          className="font-mono text-sm text-accent hover:text-accent/80 transition-colors"
+          className="font-mono text-sm text-slate-300 hover:text-slate-100 transition-colors"
         >
-          ace@portfolio:~$
+          Archana Sondur
         </a>
 
         {/* Nav links */}

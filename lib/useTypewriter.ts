@@ -10,8 +10,8 @@ interface UseTypewriterOptions {
 export function useTypewriter({
   words,
   typeSpeed = 80,
-  deleteSpeed = 45,
-  pauseTime = 2200,
+  deleteSpeed = 40,
+  pauseTime = 3000,
 }: UseTypewriterOptions): string {
   const [displayText, setDisplayText] = useState("");
   const [wordIndex, setWordIndex] = useState(0);
